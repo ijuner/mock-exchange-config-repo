@@ -4,7 +4,8 @@ server:
 spring:
   application:
     name: portfolio-service
-
+  config:
+    import: configserver:http://config-server:8888
   kafka:
     bootstrap-servers: kafka:9092
     consumer:

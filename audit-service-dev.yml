@@ -4,7 +4,8 @@ server:
 spring:
   application:
     name: audit-service
-
+  config:
+      import: configserver:http://config-server:8888
   kafka:
     bootstrap-servers: localhost:9092
     consumer:
