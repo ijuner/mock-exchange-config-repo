@@ -6,7 +6,7 @@ spring:
     name: trade-service
 
   kafka:
-    bootstrap-servers: localhost:9092
+    bootstrap-servers: kafka:9092
     consumer:
       group-id: trade-consumer
       auto-offset-reset: earliest
