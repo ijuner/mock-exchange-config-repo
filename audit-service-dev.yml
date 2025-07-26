@@ -19,3 +19,7 @@ spring:
   data:
     mongodb:
       uri: mongodb://localhost:27017/auditdb
+eureka:
+  client:
+    service-url:
+      defaultZone: service-registry:8761/eureka

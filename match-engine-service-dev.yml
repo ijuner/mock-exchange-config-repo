@@ -15,3 +15,8 @@ spring:
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       properties:
         spring.json.trusted.packages: com.mock.exchange.match_engine_service.model
+
+eureka:
+  client:
+    service-url:
+      defaultZone: service-registry:8761/eureka
