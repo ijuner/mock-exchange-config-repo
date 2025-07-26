@@ -1,5 +1,5 @@
 spring:
   profiles:
     active: dev
-  application:
-    name: default-config
+  # application:
+  #   name: default-config
